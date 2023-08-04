@@ -141,6 +141,8 @@
 .menu-icon {
     width: 24px;
     height: auto;
+    position: relative;
+    top: 5px;
 }
 .menu-option, .menu-icon, .dashboard-header, .dashboard-header-img {
     display: inline-block;
@@ -159,6 +161,8 @@
 .dashboard-header-img {
     width: 34px;
     height: auto;
+    position: relative;
+    top: 10px;
 }
 .admin-bar {
     padding: 30px 40px 20px 40px;
@@ -181,6 +185,7 @@
     float: right;
     width: 30%;
     text-align: right;
+    margin-top: -10px;
 }
 .search-bar {
     border-radius: 10px;
@@ -192,9 +197,15 @@
 .notification-icon, .admin-icon {
     margin-right: 20px;
 }
+.notification-icon {
+    position: relative;
+    bottom: 5px;
+}
 .admin-name {
     font-size: 20px;
     font-weight: bold;
+    position: relative;
+    bottom: 10px;
 }
 .bottom-bar {
     padding: 10px;
@@ -229,6 +240,8 @@
 .large-admin-icon {
     width: 60px;
     height: auto;
+    position: relative;
+    top: 10px;
 }
 .greeting {
     font-size: 16px;
@@ -247,9 +260,11 @@
 .userpic {
     width: 40px;
     height: auto;
+    position: relative;
+    top: 5px;
 }
 .userinfo {
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .trending {
     margin-bottom: 10px;
