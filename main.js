@@ -1,13 +1,11 @@
 const modeToggleSwitch = document.querySelector('.mode-switch-icon');
-/*const elements = document.querySelectorAll(`.main-container, .border-panel, .dashboard-menu, .admin-bar,
-        .project-tile, .project-title, .side-content-tile, .project-info, .announcement-content,
-        .usertag, .admin-btn, .fav-project, .watch-project, .share-project, .notification-icon`);
-*/
 
 const mainContainer = document.querySelector('.main-container');
 const dashboardMenu = document.querySelector('.dashboard-menu');
 const adminBar = document.querySelector('.admin-bar');
 const notificationIcon = document.querySelector('.notification-icon');
+const searchBar = document.querySelector('.search-bar');
+const searchIcon = document.querySelector('.search-icon');
 
 const borderPanel = document.querySelectorAll('.border-panel');
 const projectTile = document.querySelectorAll('.project-tile');
@@ -40,6 +38,8 @@ function addDarkMode() {
     dashboardMenu.classList.add('dark-mode-dashboard-menu');
     adminBar.classList.add('dark-mode-admin-bar');
     notificationIcon.classList.add('dark-mode-notification-icon');
+    searchBar.classList.add('dark-mode-search-bar');
+    searchIcon.classList.add('dark-mode-search-icon');
 
     borderPanel.forEach((bPanel) => {
         bPanel.classList.add('dark-mode-border-panel');
@@ -83,6 +83,8 @@ function removeDarkMode(){
     dashboardMenu.classList.remove('dark-mode-dashboard-menu');
     adminBar.classList.remove('dark-mode-admin-bar');
     notificationIcon.classList.remove('dark-mode-notification-icon');
+    searchBar.classList.remove('dark-mode-search-bar');
+    searchIcon.classList.remove('dark-mode-search-icon');
 
     borderPanel.forEach((bPanel) => {
         bPanel.classList.remove('dark-mode-border-panel');
