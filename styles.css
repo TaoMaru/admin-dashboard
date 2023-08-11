@@ -345,7 +345,7 @@
 .dark-mode-switch-icon {
     content: url("./icons/toggle-switch-off-light.svg");
 }
-
+/*MEDIA QUERIES*/
 @media screen and (max-width: 545px) {
     .main-container {
         display: flex;
@@ -410,6 +410,25 @@
         right: 0;
         margin-top: -65px;
     }
+    .burger-menu-icon {
+        content: url('./icons/menu.svg');
+        width: 24px;
+        height: auto;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .dark-burger-menu-icon {
+        content: url('./icons/menu-light.svg');
+    }
+    .burger-close-icon {
+        content: url('./icons/close-thick.svg');
+        transition: .2sec;
+    }
+    .dark-burger-close-icon {
+        content: url('./icons/close-thick-light.svg');
+        transition: .2sec;
+    }
 }
 
 @media screen and (min-width: 546px) and (max-width: 700px) {
@@ -472,7 +491,7 @@
         position: absolute;
         top: 5px;
         left: 0;
-        margin-top: 0px;
+        margin-top: 30px;
     }
     .admin-btns, .admin-icon, .admin-name {
         visibility: hidden;
@@ -491,7 +510,27 @@
         right: 0;
         margin-top: -35px;
     }
+    .burger-menu-icon {
+        content: url('./icons/menu.svg');
+        width: 24px;
+        height: auto;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .dark-burger-menu-icon {
+        content: url('./icons/menu-light.svg');
+    }
+    .burger-close-icon {
+        content: url('./icons/close-thick.svg');
+        transition: .2sec;
+    }
+    .dark-burger-close-icon {
+        content: url('./icons/close-thick-light.svg');
+        transition: .2sec;
+    }
 }
+
 @media screen and (min-width: 701px) and (max-width: 1200px) {
     .main-container {
         min-height: 100vh;
@@ -522,6 +561,19 @@
 
         padding: 20px;
     }
+    .projects-content-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .project-tile {
+        flex: 1 1 auto;
+        width: 40%;
+        height: auto;
+        /*max-height: 250px;*/
+        position: relative;
+    }
     .side-content-container {
         display: flex;
         flex-direction: row;
@@ -540,9 +592,6 @@
         margin-top: -30px;
         padding-left: 10px;
     }
-    .project-tile {
-        width: 100%;
-    }
     .left-top-bar-container {
         visibility: hidden;
     }
@@ -557,7 +606,7 @@
         position: absolute;
         top: 5px;
         left: 0;
-        margin-top: 0px;
+        margin-top: 30px;
     }
     .admin-btns, .admin-icon, .admin-name {
         visibility: hidden;
@@ -575,5 +624,24 @@
         top: 0;
         right: 0;
         margin-top: -35px;
+    }
+    .burger-menu-icon {
+        content: url('./icons/menu.svg');
+        width: 24px;
+        height: auto;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .dark-burger-menu-icon {
+        content: url('./icons/menu-light.svg');
+    }
+    .burger-close-icon {
+        content: url('./icons/close-thick.svg');
+        transition: .2sec;
+    }
+    .dark-burger-close-icon {
+        content: url('./icons/close-thick-light.svg');
+        transition: .2sec;
     }
 }

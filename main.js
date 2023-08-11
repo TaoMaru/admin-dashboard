@@ -6,6 +6,7 @@ const adminBar = document.querySelector('.admin-bar');
 const notificationIcon = document.querySelector('.notification-icon');
 const searchBar = document.querySelector('.search-bar');
 const searchIcon = document.querySelector('.search-icon');
+const burgerIcon = document.querySelector('.burger-menu-icon');
 
 const borderPanel = document.querySelectorAll('.border-panel');
 const projectTile = document.querySelectorAll('.project-tile');
@@ -40,6 +41,7 @@ function addDarkMode() {
     notificationIcon.classList.add('dark-mode-notification-icon');
     searchBar.classList.add('dark-mode-search-bar');
     searchIcon.classList.add('dark-mode-search-icon');
+    burgerIcon.classList.add('dark-burger-menu-icon');
 
     borderPanel.forEach((bPanel) => {
         bPanel.classList.add('dark-mode-border-panel');
@@ -85,6 +87,7 @@ function removeDarkMode(){
     notificationIcon.classList.remove('dark-mode-notification-icon');
     searchBar.classList.remove('dark-mode-search-bar');
     searchIcon.classList.remove('dark-mode-search-icon');
+    burgerIcon.classList.remove('dark-burger-menu-icon');
 
     borderPanel.forEach((bPanel) => {
         bPanel.classList.remove('dark-mode-border-panel');
