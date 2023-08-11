@@ -123,3 +123,19 @@ function removeDarkMode(){
         sProj.classList.remove('dark-mode-share-project');
     });
 };
+
+burgerIcon.addEventListener('click', toggleDashMenu);
+
+function toggleDashMenu(evt) {
+    if(evt.target.matches('.burger-close-icon')){
+        dashboardMenu.classList.remove('tiny-dashboard');
+        adminBar.classList.remove('admin-bar-behind-tiny-dash');
+        dashboardMenu.classList.remove('visible-tiny-dashboard');
+        burgerIcon.classList.remove('burger-close-icon');
+    }else{
+        burgerIcon.classList.add('burger-close-icon');
+        dashboardMenu.classList.add('tiny-dashboard');
+        adminBar.classList.add('admin-bar-behind-tiny-dash');
+        dashboardMenu.classList.add('visible-tiny-dashboard');
+    }
+};

@@ -416,18 +416,37 @@
         height: auto;
         position: absolute;
         top: 10px;
-        left: 10px;
+        left: 20px;
+        z-index: 10;
     }
     .dark-burger-menu-icon {
         content: url('./icons/menu-light.svg');
     }
     .burger-close-icon {
-        content: url('./icons/close-thick.svg');
+        content: url('./icons/close-thick-light.svg');
         transition: .2sec;
     }
     .dark-burger-close-icon {
         content: url('./icons/close-thick-light.svg');
         transition: .2sec;
+    }
+    .tiny-dashboard {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: auto;
+        padding-top: 30px;
+        z-index: 9;
+        margin-left: -200px;
+    }
+    .visible-tiny-dashboard {
+        transform: translateX(200px);
+        transition: .5s transform;
+    }
+    .admin-bar-behind-tiny-dash {
+        margin-top: 0;
     }
 }
 
@@ -516,18 +535,37 @@
         height: auto;
         position: absolute;
         top: 10px;
-        left: 10px;
+        left: 20px;
+        z-index: 10;
     }
     .dark-burger-menu-icon {
         content: url('./icons/menu-light.svg');
     }
     .burger-close-icon {
-        content: url('./icons/close-thick.svg');
+        content: url('./icons/close-thick-light.svg');
         transition: .2sec;
     }
     .dark-burger-close-icon {
         content: url('./icons/close-thick-light.svg');
         transition: .2sec;
+    }
+    .tiny-dashboard {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: auto;
+        padding-top: 30px;
+        z-index: 9;
+        margin-left: -200px;
+    }
+    .visible-tiny-dashboard {
+        transform: translateX(200px);
+        transition: .5s transform;
+    }
+    .admin-bar-behind-tiny-dash {
+        margin-top: 0;
     }
 }
 
@@ -631,17 +669,36 @@
         height: auto;
         position: absolute;
         top: 10px;
-        left: 10px;
+        left: 20px;
+        z-index: 10;
     }
     .dark-burger-menu-icon {
         content: url('./icons/menu-light.svg');
     }
     .burger-close-icon {
-        content: url('./icons/close-thick.svg');
+        content: url('./icons/close-thick-light.svg');
         transition: .2sec;
     }
     .dark-burger-close-icon {
         content: url('./icons/close-thick-light.svg');
         transition: .2sec;
+    }
+    .tiny-dashboard {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: auto;
+        padding-top: 30px;
+        z-index: 9;
+        margin-left: -200px;
+    }
+    .visible-tiny-dashboard {
+        transform: translateX(200px);
+        transition: .5s transform;
+    }
+    .admin-bar-behind-tiny-dash {
+        margin-top: 0;
     }
 }
