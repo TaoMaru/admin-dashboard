@@ -346,5 +346,234 @@
     content: url("./icons/toggle-switch-off-light.svg");
 }
 
+@media screen and (max-width: 545px) {
+    .main-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .border-panel {
+        visibility: hidden;
+    }
+    .dashboard-menu {
+        visibility: hidden;
+        height: 0px;
+    }
+    .admin-bar {
+        flex: 1 1 auto;
+        position: relative;
+        margin-top: -40px;
+    }
+    .projects {
+        flex: 1 1 auto;
 
+        padding: 20px;
+    }
+    .side-panel {
+        flex: 1 1 auto;
 
+        padding: 20px;
+        
+    }
+    .project-tile {
+        width: 100%;
+    }
+    .left-top-bar-container {
+        visibility: hidden;
+    }
+    .right-top-bar-container {
+        width: 90%;
+        position: relative;
+        top: 0;
+        right: 0;
+        padding: 0;
+    }
+    .bottom-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .admin-btns, .admin-icon, .admin-name {
+        visibility: hidden;
+    }
+    .notification-icon {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        right: 0;
+        margin-top: -60px;
+        margin-right: -30px;
+    }
+    .mode-switch-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: -65px;
+    }
+}
+
+@media screen and (min-width: 546px) and (max-width: 700px) {
+    .main-container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .border-panel {
+        visibility: hidden;
+    }
+    .dashboard-menu {
+        visibility: hidden;
+        height: 0px;
+    }
+    .admin-bar {
+        flex: 1 1 auto;
+        position: relative;
+        margin-top: -40px;
+    }
+    .side-panel {
+        flex: 1 1 auto;
+
+        padding: 20px;
+    }
+    .side-content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .side-content-tile {
+        flex: 1 1 auto;
+    }
+    .side-headline {
+        width: 50%;
+    }
+    .trending-headline {
+        position: absolute;
+        right: 0;
+        margin-top: -30px;
+        padding-left: 10px;
+    }
+    .project-tile {
+        width: 100%;
+    }
+    .left-top-bar-container {
+        visibility: hidden;
+    }
+    .right-top-bar-container {
+        width: 90%;
+        position: relative;
+        top: 0;
+        right: 0;
+        padding: 0;
+    }
+    .bottom-bar {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        margin-top: 0px;
+    }
+    .admin-btns, .admin-icon, .admin-name {
+        visibility: hidden;
+    }
+    .notification-icon {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        right: 0;
+        margin-top: -30px;
+        margin-right: -20px;
+    }
+    .mode-switch-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: -35px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1200px) {
+    .main-container {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .border-panel {
+        visibility: hidden;
+    }
+    .dashboard-menu {
+        visibility: hidden;
+        height: 0px;
+    }
+    .admin-bar {
+        flex: 1 1 auto;
+        position: relative;
+        margin-top: -40px;
+    }
+    .projects {
+        flex: 1 1 auto;
+
+        padding: 20px;
+    }
+    .side-panel {
+        flex: 1 1 auto;
+
+        padding: 20px;
+    }
+    .side-content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .side-content-tile {
+        flex: 1 1 auto;
+    }
+    .side-headline {
+        width: 50%;
+    }
+    .trending-headline {
+        position: absolute;
+        right: 0;
+        margin-top: -30px;
+        padding-left: 10px;
+    }
+    .project-tile {
+        width: 100%;
+    }
+    .left-top-bar-container {
+        visibility: hidden;
+    }
+    .right-top-bar-container {
+        width: 90%;
+        position: relative;
+        top: 0;
+        right: 0;
+        padding: 0;
+    }
+    .bottom-bar {
+        position: absolute;
+        top: 5px;
+        left: 0;
+        margin-top: 0px;
+    }
+    .admin-btns, .admin-icon, .admin-name {
+        visibility: hidden;
+    }
+    .notification-icon {
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        right: 0;
+        margin-top: -30px;
+        margin-right: -20px;
+    }
+    .mode-switch-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: -35px;
+    }
+}
